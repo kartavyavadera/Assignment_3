@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".q5">
+    <TableRow
+        android:id="@+id/row_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textSize="25sp"
+            android:text="New product From"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="25dp"
+            android:layout_weight="1"
+            android:text="Product code"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="155dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="101"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/row_3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="25dp"
+            android:layout_weight="1"
+            android:text="Product name"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="155dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="camera"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="25dp"
+            android:layout_weight="1"
+            android:text="Product price"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="50$"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/row_5">
+
+        <Button
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Add Product"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:gravity="center"
+            android:padding="25dp"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+    </TableRow>
+
+</TableLayout>

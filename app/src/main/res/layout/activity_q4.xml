@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".q4">
+
+    <Button
+        android:id="@+id/red"
+        android:background="@color/red"
+        android:text="RED"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:id="@+id/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/orange"
+        android:text="ORANGE"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@color/yellow"
+        android:text="YELLOW"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="55dp"
+        android:background="@color/green"
+        android:text="GREEN"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@color/blue"
+        android:text="BLUE"
+        android:layout_centerInParent="true"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/indigo"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="55dp"
+        android:background="@color/indigo"
+        android:text="INDIGO"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/violet"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/violet"
+        android:text="VIOLET"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
